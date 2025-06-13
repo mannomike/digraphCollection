@@ -9,9 +9,7 @@ import time
  Clarkson University / AFRL
  This a Keystroke logger that only monitors and records digraphs and the 6 features planned for ML
  KNOWN ISSUES: 
- Fast Typing may cause delays in the timestamp.  Fix and account for this.
- The problem is the timing, and accounting for duration UnboundLocalError, tyring to
- access it before it is assigned.
+ Does not account for 2 keys down at the same time.
  
 '''
 
